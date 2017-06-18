@@ -1,0 +1,26 @@
+{
+  "name": "Pomodoro-Clock",
+  "version": "1.0.0",
+  "description": "Pomodoro-Clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrdavidrobison/Pomodoro-Clock.git"
+  },
+  "keywords": [],
+  "author": "david robison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdavidrobison/Pomodoro-Clock/issues"
+  },
+  "homepage": "https://github.com/mrdavidrobison/Pomodoro-Clock#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-stylus": "^2.6.0"
+  }
+}
