@@ -1,0 +1,21 @@
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge")
+  title Document
+body
+  .container
+    h1 Build a Pomodoro Clock
+    .timeDiv
+      h1#title1 Session Time
+      a#minus5Clock(href="#").btn.btn-primary -
+      h2#num 5
+      a#add5Clock(href="#").btn.btn-primary +
+      a#reset(href="#").btn.btn-primary Reset
+    .breakDiv
+      h1#title1 Break Time
+      a#minus5Break(href="#").btn.btn-primary -
+      h2#breakNum 5
+      a#add5Break(href="#").btn.btn-primary +   
+    a#start(href="#").btn.btn-primary Start       
