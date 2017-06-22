@@ -34,7 +34,7 @@ $(document).ready(function(){
     var counter = setInterval(timer, 1000);
     countS *= 60;
     function timer(){
-      $("#addS, #minusS, #numS, #titleS, #addB, #minusB, #numB, #titleB").hide();
+      $("#addS, #minusS, #numS, #titleS, #addB, #minusB, #numB, #titleB, #start. #reset").hide();
       $("#timeType").show();
       $("#timeType").html("Session Time: ");
       countS -= 1;
