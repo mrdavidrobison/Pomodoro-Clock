@@ -9,22 +9,21 @@ head
   audio#buzzer(src='http://codingtutorials360.com/14244764.mp3', type='audio/mpeg')
   title Document
 body
-  .container
-    .text-center
-      h1 Build a Pomodoro Clock
-      .timeDiv
-        h1#titleS Session Time
-        a#minusS(href="#").btn.btn-primary -
-        h2#timeType
-        h2#numS 5
-        a#addS(href="#").btn.btn-primary +
-        a#reset(href="#").btn.btn-primary Reset
-      .breakDiv
-        h1#titleB Break Time
-        a#minusB(href="#").btn.btn-primary -
-        h2#numB 5
-        a#addB(href="#").btn.btn-primary +   
-        a#start(href="#").btn.btn-primary Start       
+  .text-center
+    h1 Build a Pomodoro Clock
+    .timeDiv
+      h1#titleS Session Time
+      a#minusS(href="#").btn.btn-primary -
+      h2#timeType
+      h2#numS 5
+      a#addS(href="#").btn.btn-primary +
+      a#reset(href="#").btn.btn-primary Reset
+    .breakDiv
+      h1#titleB Break Time
+      a#minusB(href="#").btn.btn-primary -
+      h2#numB 5
+      a#addB(href="#").btn.btn-primary +   
+      a#start(href="#").btn.btn-primary Start       
 
 script(src='https://code.jquery.com/jquery-2.2.4.min.js')
 script(src='index.js')
