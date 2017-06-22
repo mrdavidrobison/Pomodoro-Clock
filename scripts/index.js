@@ -52,6 +52,18 @@ $("#reset").hide();
     }
   });
 
+  $("#reset").click(function() {
+    console.log(4444444);
+    count = 25;
+    breakTime = 25;
+    $("#num").html(count);
+    $("#breakNum").html(breakTime);
+    $(
+      "#start, #minus5Clock, #add5Clock, #minus5Break, #add5Break, #breakNum, #num, #title1, #title2"
+    ).show();
+    $("#reset, #timeType").hide();
+  });
+
   $("#minusS").click(function(){
     if (sessionCount > 5){
       sessionCount -= 5;
