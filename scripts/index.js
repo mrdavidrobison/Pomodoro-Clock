@@ -35,7 +35,7 @@ $(document).ready(function(){
     countS *= 60;
     function timer(){
       $("#addS, #minusS, #numS, #titleS, #addB, #minusB, #numB, #titleB, #start, #reset").hide();
-      $("#numS").show();
+      $("#numS, #timeType").show();
       $("#timeType").html("Session Time: ");      
       countS -= 1;
       if (countS === 0){
